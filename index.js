@@ -25,3 +25,22 @@ const addProduct = () => {
   // Pulisce il campo input
   document.querySelector("input").value = "";
 };
+
+
+
+
+// Video soluzione
+
+// const addProduct = () => {
+//   const ul = document.querySelector("ul");
+//   const input = document.querySelector("input");
+
+//   const li = document.createElement("li");
+//   const checkbox = document.createElement("input");
+//   checkbox.setAttribute("type", "checkbox");
+
+//   li.innerHTML = input.value;
+
+//   li.appendChild(checkbox);
+//   ul.appendChild(li);
+// };
